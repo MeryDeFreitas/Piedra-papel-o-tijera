@@ -1,0 +1,53 @@
+body{
+    background-color: white; 
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.caja{
+    background: rgba(0, 0, 0, .3);
+    width: 700px;
+    margin: 20px;
+    padding: 5px;
+    border: solid black 2px;
+}
+
+h1{
+    font-size: 30px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+h3{
+    font-size: 15px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+h4{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.choices{
+    border: none;
+    margin: 4px;
+    background: #4CAF50;
+    color: white;
+    border-radius: 6px;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
