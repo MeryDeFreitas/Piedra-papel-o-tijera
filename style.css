@@ -9,6 +9,9 @@ body{
     margin: 20px;
     padding: 5px;
     border: solid black 2px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
 }
 
 h1{
@@ -35,6 +38,11 @@ h4{
     text-align: center;
 }
 
+.Contenedorchoices, .ContenedorImagen{
+    display: flex;
+    justify-content: center;
+}
+
 .choices{
     border: none;
     margin: 4px;
@@ -44,10 +52,66 @@ h4{
     width: 100px;
     height: 20px;
     cursor: pointer;
+    display:inline-block;   
 }
 
 img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1023px) {
+    h1, h2, h3{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px;
+        }
+    .caja{
+        width: 300px;
+        position: absolute;
+        top: 150px;
+        left: 300px;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1, h2, h3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    }
+    .caja{
+    width: 300px;
+    left: 100px;
+    top: 200px;
+    align-items: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1, h2, h3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    }
+    .caja{
+    width: 300px;
+    left: 0;
+    align-items: center;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1, h2, h3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    }
+    .caja{
+        width: 300px;
+        left: 0;
+        align-items: center;
+    }
 }

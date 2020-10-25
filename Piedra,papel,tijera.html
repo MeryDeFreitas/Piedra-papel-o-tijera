@@ -9,24 +9,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <center><div class="caja">
+<div class="caja">
 
         <h1>¡Bienvenido a Piedra, papel o tijera!</h1>
         <h2>Selecciona tu movimiento: </h2>
-        <center><button class="choices" id="Piedra">Piedra</button><button class="choices" id="Papel">Papel</button><button class="choices" id="Tijera">Tijera</button></center></br>
-    
-        <center><img src= "Opening.JPG" id="foto2"></center>
+        <div class="Contenedorchoices">
+            <button class="choices" id="Piedra">Piedra</button><button class="choices" id="Papel">Papel</button><button class="choices" id="Tijera">Tijera</button></br>
+        </div>
+
+<div class="ContenedorImagen">
+    <img src= "Opening.JPG" id="foto2">
+</div>
         
         <h3>Elección computadora</h3>
-        <center><img src= "Computadora.jpg" id="foto1"></center>
+
+<div class="ContenedorImagen">
+<img src= "Computadora.jpg" id="foto1">
+</div>
     
         <h4>Resultado: </h3>
         <h4 id="result"></h4>
-    
-        <center><button class="choices" id="Refrescar">Refrescar</button></center></br>
 
+<div class="Contenedorchoices">
+<button class="choices" id="Refrescar">Refrescar</button></br>
+</div>
 
-    </div></center>
+    </div>
 
     <script src = "Piedra,papel,tijera.js"></script>
 
